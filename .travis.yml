@@ -1,7 +1,7 @@
 language: python
 install: skip
 script: python ./src/hello.py
-    -chmod u+x expect.sh
+ - expect.sh
 arch: ppc64le
 
 jobs:
