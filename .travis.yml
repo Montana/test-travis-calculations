@@ -1,8 +1,7 @@
 language: python
 install: skip
-script: python ./src/hello.py > answer.txt
+script: python ./src/hello.py < answer.txt
 arch: ppc64le
-
 jobs:
   include:
      - os: linux
@@ -10,7 +9,7 @@ jobs:
        arch: arm64-graviton2
        virt: vm
        group: edge
-     - os: linux
+     - os: freebsd
        arch: arm64-graviton2
        virt: lxd
        group: edge
@@ -22,13 +21,12 @@ jobs:
        python: "3.6"
      - os: linux
        arch: arm64 # ARMv8
-       dist: focal
+       dist: bionic
        language: python
        python: "3.6"
-     - language: python
-       python: "2.7" 
        before_install:
          - kerl list installations
+         - uname -r 
      - dist: focal
        before_install:
          - cmake --version
@@ -61,6 +59,5 @@ jobs:
 #     language: python
 #     python: "2.7"
 #     dist: xenial
-
 
 
