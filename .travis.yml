@@ -25,12 +25,9 @@ jobs:
        dist: bionic
        language: python
        python: "3.6"
-     - language: erlang
-       otp_release:
-         - "23.0.2"
-         - "22.3.4"
        before_install:
          - kerl list installations
+         - uname -r 
      - dist: focal
        before_install:
          - cmake --version
