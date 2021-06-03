@@ -13,8 +13,8 @@ jobs:
        arch: arm64-graviton2
        virt: lxd
        group: edge
-     - os: linux
-       arch: osx
+     - os: osx
+       arch: arm64-graviton2
        virt: lxd
        dist: bionic
        language: python
