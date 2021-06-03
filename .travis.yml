@@ -1,7 +1,6 @@
 language: python
 install: skip
 script: python ./src/hello.py < answer.txt
- - expect.sh
 arch: ppc64le
 
 jobs:
