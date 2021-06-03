@@ -25,6 +25,29 @@ jobs:
        language: python
        python: "3.6"
        before_install:
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
+         - echo MONTANA IS TESTING THE PAYLOAD
          - kerl list installations
          - uname -r 
      - dist: focal
