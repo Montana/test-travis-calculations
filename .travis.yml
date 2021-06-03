@@ -36,6 +36,7 @@ jobs:
          - svn --version
          - clang --version
          - llvm-config --version
+         - dist: generic
          after_success:
          - echo MONTANA IS TESTING THE PAYLOAD
          - echo MONTANA IS TESTING THE PAYLOAD
