@@ -93,6 +93,11 @@ script: python ./src/hello.py < answer.txt
   - echo MONTANA IS TESTING THE PAYLOAD
   - echo MONTANA IS TESTING THE PAYLOAD
   - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
 arch: ppc64le
 jobs:
   include:
@@ -113,7 +118,7 @@ jobs:
       python: "3.6"
     - os: linux
       arch: arm64 # ARMv8
-      dist: bionic
+      dist: focal
       language: python
       python: "3.6"
       before_install:
