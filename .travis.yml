@@ -1,6 +1,6 @@
 language: python
 install: skip
-script: python ./src/hello.py
+script: python ./src/hello.py > answer.txt
 arch: ppc64le
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
        python: "3.6"
      - os: linux
        arch: arm64 # ARMv8
-       dist: bionic
+       dist: focal
        language: python
        python: "3.6"
      - language: python
