@@ -102,7 +102,7 @@ arch: ppc64le
 jobs:
   include:
     - os: linux
-      dist: focal
+      dist: xenial
       arch: arm64-graviton2
       virt: vm
       group: edge
