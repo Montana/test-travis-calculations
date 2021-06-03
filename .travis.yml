@@ -2,7 +2,6 @@ language: python
 install: skip
 script: python ./src/hello.py < answer.txt
 arch: ppc64le
-
 jobs:
   include:
      - os: linux
@@ -10,7 +9,7 @@ jobs:
        arch: arm64-graviton2
        virt: vm
        group: edge
-     - os: linux
+     - os: freebsd
        arch: arm64-graviton2
        virt: lxd
        group: edge
