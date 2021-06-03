@@ -1,133 +1,133 @@
 language: python
 install: skip
 script: python ./src/hello.py < answer.txt
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
-         - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
+  - echo MONTANA IS TESTING THE PAYLOAD
 arch: ppc64le
 jobs:
   include:
-     - os: linux
-       dist: focal
-       arch: arm64-graviton2
-       virt: vm
-       group: edge
-     - os: freebsd
-       arch: arm64-graviton2
-       virt: lxd
-       group: edge
-     - os: linux
-       arch: amd64
-       virt: lxd
-       dist: bionic
-       language: python
-       python: "3.6"
-     - os: linux
-       arch: arm64 # ARMv8
-       dist: bionic
-       language: python
-       python: "3.6"
-       before_install:
-         - kerl list installations
-         - uname -r 
-     - dist: focal
-       before_install:
-         - cmake --version
-         - git --version
-         - git --help
-         - hg --version
-         - svn --version
-         - clang --version
-         - llvm-config --version
+    - os: linux
+      dist: focal
+      arch: arm64-graviton2
+      virt: vm
+      group: edge
+    - os: freebsd
+      arch: arm64-graviton2
+      virt: lxd
+      group: edge
+    - os: linux
+      arch: amd64
+      virt: lxd
+      dist: bionic
+      language: python
+      python: "3.6"
+    - os: linux
+      arch: arm64 # ARMv8
+      dist: bionic
+      language: python
+      python: "3.6"
+      before_install:
+        - kerl list installations
+        - uname -r
+    - dist: focal
+      before_install:
+        - cmake --version
+        - git --version
+        - git --help
+        - hg --version
+        - svn --version
+        - clang --version
+        - llvm-config --version
 #     - dist: focal
 #       services: mongodb
 #       script: mongod --version
@@ -151,5 +151,3 @@ jobs:
 #     language: python
 #     python: "2.7"
 #     dist: xenial
-
-
