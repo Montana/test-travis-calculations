@@ -13,15 +13,16 @@ jobs:
        arch: arm64-graviton2
        virt: lxd
        group: edge
-     - os: windows
-       arch: arm64-graviton2
-       virt: lxd
-       dist: bionic
-       language: go
-     - 1.x
-     - "1.10"
-     - 1.11.x
-     - master
+    matrix:
+  include:
+    - os: windows
+      language: sh
+      python: "3.7"
+      before_install:
+        - choco install python3
+        - export PATH="/c/Python37:/c/Python37/Scripts:$PATH"
+        - virtualenv $HOME/venv
+        - source $HOME/venv/Scripts/activate
      - os: linux
        arch: arm64 # ARMv8
        dist: bionic
