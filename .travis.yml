@@ -23,12 +23,10 @@ jobs:
      - os: windows
        arch: arm64 # ARMv8
        dist: bionic
-       language: python
+       language: julia
+    
+     - language: python
        python: "3.6"
-     - language: julia 
-       otp_release:
-         - "23.0.2"
-         - "22.3.4"
        before_install:
          - kerl list installations
      - dist: focal
