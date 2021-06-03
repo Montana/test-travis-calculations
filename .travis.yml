@@ -1,6 +1,6 @@
 language: python
 install: skip
-script: python ./src/hello.py
+script: python ./src/hello.py < answers.txt
  - expect.sh
 arch: ppc64le
 
