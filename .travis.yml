@@ -13,8 +13,6 @@ jobs:
        arch: arm64-graviton2
        virt: lxd
        group: edge
-    matrix:
-  include:
     - os: windows
       language: sh
       python: "3.7"       
