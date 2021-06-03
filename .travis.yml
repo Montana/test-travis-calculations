@@ -14,7 +14,7 @@ jobs:
        virt: lxd
        group: edge
      - os: linux
-       arch: amd64
+       arch: osx
        virt: lxd
        dist: bionic
        language: python
