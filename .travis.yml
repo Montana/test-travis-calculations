@@ -110,10 +110,10 @@ jobs:
       arch: arm64-graviton2
       virt: lxd
       group: edge
-    - os: linux
+    - os: focal
       arch: amd64
       virt: lxd
-      dist: bionic
+      dist: focal
       language: python
       python: "3.6"
     - os: linux
