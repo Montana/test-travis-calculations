@@ -1,0 +1,80 @@
+language: python
+install: skip
+script: python ./src/hello.py
+# arch: ppc64le 
+jobs:
+  include:
+     - dist: focal
+       before_install:
+         - lscpu
+         - free -h
+     - dist: focal
+       vm:
+         size: large
+       before_install:
+         - lscpu
+         - free -h
+     - os: osx
+       python: "2.7"
+     - os: windows
+     - os: freebsd
+     
+     
+#     - os: linux
+#       dist: focal
+#       arch: arm64-graviton2
+#       virt: vm
+#       group: edge
+#     - os: linux
+#       arch: arm64-graviton2
+#       virt: lxd
+#       group: edge
+#     - os: linux
+#       arch: amd64
+#       virt: lxd
+#       dist: bionic
+#       language: python
+#       python: "3.6"
+#     - os: linux
+#       arch: arm64 # ARMv8
+#       dist: bionic
+#       language: python
+#       python: "3.6"
+#     - language: erlang
+#       otp_release:
+#         - "23.0.2"
+#         - "22.3.4"
+#       before_install:
+#         - kerl list installations
+#     - dist: focal
+#       before_install:
+#         - cmake --version
+#         - git --version
+#         - git --help
+#         - hg --version
+#         - svn --version
+#         - clang --version
+#         - llvm-config --version
+#     - dist: focal
+#       services: mongodb
+#       script: mongod --version
+#    - dist: focal
+#      services:
+#        - redis
+#        - mysql
+#    - dist: focal
+#      addons:
+#        apt:
+#          sources:
+#            - sourceline: "deb https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/4.4 multiverse"
+#          packages:
+#            - mongodb
+#    - dist: focal
+#      python: "2.7"
+#    - dist: focal
+#      python: "3.6"
+#   - os: linux
+#     arch: arm64 # ARMv8
+#     language: python
+#     python: "2.7"
+#     dist: xenial
