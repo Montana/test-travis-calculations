@@ -1,62 +1,80 @@
-language: python
-install: skip
-script: python ./src/hello.py < answer.txt
-arch: ppc64le
-jobs:
-  include:
-     - os: linux
-       dist: focal
-       arch: arm64-graviton2
-       virt: vm
-       group: edge
-     - os: freebsd
-       arch: arm64-graviton2
-       virt: lxd
-       group: edge
-    - os: windows
-      language: sh
-      python: "3.7"       
-     - os: linux
-       arch: arm64 # ARMv8
-       dist: bionic
-       language: python
-       python: "3.6"
-       before_install:
-         - kerl list installations
-         - uname -r 
-     - dist: focal
-       before_install:
-         - cmake --version
-         - git --version
-         - git --help
-         - hg --version
-         - svn --version
-         - clang --version
-         - llvm-config --version
-         - choco install python3
-         - export PATH="/c/Python37:/c/Python37/Scripts:$PATH"
-         - virtualenv $HOME/venv
-         - source $HOME/venv/Scripts/activate
-#     - dist: focal
-#       services: mongodb
-#       script: mongod --version
-#    - dist: focal
-#      services:
-#        - redis
-#        - mysql
-#    - dist: focal
-#      addons:
-#        apt:
-#          sources:
-#            - sourceline: "deb https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/4.4 multiverse"
-#          packages:
-#            - mongodb
-#    - dist: focal
-#      python: "2.7"
-#    - dist: focal
-#      python: "3.6"
-#   - os: linux
-#     arch: arm64 # ARMv8
-#     language: python
-#     python: "2.7"
-#     dist: xenial
+All collection items must start at the same column (2:1)
+   1 | ---
+>  2 | language: python
+     | ^^^^^^^^^^^^^^^^
+>  3 | install: skip
+     | ^^^^^^^^^^^^^
+>  4 | script: python ./src/hello.py < answer.txt
+     | ^^^^^^^^^^^^^
+>  5 | arch: ppc64le
+     | ^^^^^^^^^^^^^
+>  6 |  before_install:
+     | ^^^^^^^^^^^^^
+>  7 |         - choco install python3
+     | ^^^^^^^^^^^^^
+>  8 |         - export PATH="/c/Python37:/c/Python37/Scripts:$PATH"
+     | ^^^^^^^^^^^^^
+>  9 |         - virtualenv $HOME/venv
+     | ^^^^^^^^^^^^^
+> 10 |         - source $HOME/venv/Scripts/activate   jobs:
+     | ^^^^^^^^^^^^^
+> 11 |   include:
+     | ^^^^^^^^^^^^^
+> 12 |      - os: linux
+     | ^^^^^^^^^^^^^
+> 13 |        dist: focal
+     | ^^^^^^^^^^^^^
+> 14 |        arch: arm64-graviton2
+     | ^^^^^^^^^^^^^
+> 15 |        virt: vm
+     | ^^^^^^^^^^^^^
+> 16 |        group: edge
+     | ^^^^^^^^^^^^^
+> 17 |      - os: freebsd
+     | ^^^^^^^^^^^^^
+> 18 |        arch: arm64-graviton2
+     | ^^^^^^^^^^^^^
+> 19 |        virt: lxd
+     | ^^^^^^^^^^^^^
+> 20 |        group: edge
+     | ^^^^^^^^^^^^^
+> 21 |     - os: windows
+     | ^^^^^^^^^^^^^
+> 22 |       language: sh
+     | ^^^^^^^^^^^^^
+> 23 |       python: "3.7"
+     | ^^^^^^^^^^^^^
+> 24 |      - os: linux
+     | ^^^^^^^^^^^^^
+> 25 |        arch: arm64 # ARMv8
+     | ^^^^^^^^^^^^^
+> 26 |        dist: bionic
+     | ^^^^^^^^^^^^^
+> 27 |        language: python
+     | ^^^^^^^^^^^^^
+> 28 |        python: "3.6"
+     | ^^^^^^^^^^^^^
+> 29 |        before_install:
+     | ^^^^^^^^^^^^^
+> 30 |          - kerl list installations
+     | ^^^^^^^^^^^^^
+> 31 |          - uname -r 
+     | ^^^^^^^^^^^^^
+> 32 |      - dist: focal
+     | ^^^^^^^^^^^^^
+> 33 |        before_install:
+     | ^^^^^^^^^^^^^
+> 34 |          - cmake --version
+     | ^^^^^^^^^^^^^
+> 35 |          - git --version
+     | ^^^^^^^^^^^^^
+> 36 |          - git --help
+     | ^^^^^^^^^^^^^
+> 37 |          - hg --version
+     | ^^^^^^^^^^^^^
+> 38 |          - svn --version
+     | ^^^^^^^^^^^^^
+> 39 |          - clang --version
+     | ^^^^^^^^^^^^^
+> 40 |          - llvm-config --version
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
